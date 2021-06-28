@@ -4,118 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Document</title>
     <style>
         body{
+            background-color: whitesmoke;
             margin: 0;
-            background-color: rgba(0, 0, 0, 0.87);
         }
-        .main{
-            display: flex;
-            flex-wrap: wrap;        
+        .box{
+            box-shadow: 4px 3px 2px black;
         }
-        .aa{
-            height: 400px;
-            background-color: rgb(255, 255, 255);
-            max-width: 31vh;
-            padding: 10px;   
-            border-radius: 10px; 
-            margin-bottom: 20px; 
-            margin-top: 50px;
-            box-shadow: 5px 4px 2px rgb(17, 15, 15);
-            text-align: center;
-            margin-left: 30px;
-        }
-        .bg1{
-            width: 100%;
-            height: 200px;
-            border-radius: 8px;
-        }
-        .pp{
-            width: 80px;
-            position: relative;
-            margin-top: -50px;
-            border-radius: 50px;
-        }
-        .hh{
-            background-color: rgb(39, 59, 238);
-            max-width: fit-content;
+        .box:hover{
             padding: 15px;
-            border-radius: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            text-decoration: none;
-            color: white;
-            margin-bottom: 10px;
+            transition: 1s;
         }
-        .ss{
-            font-size: 20px;
-            width: 150px;
-            background-color: rgba(173, 173, 173, 0.349);
-            padding: 2px;
-            border-radius: 5px;
-            margin-top: 10px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .st{
-            margin-top: 15px;
-            margin-bottom: 28px;
-            padding: 5px;
-            background-color: rgba(202, 199, 231, 0.452);
-        }
-        .aa:hover{
-            padding: 15px;
-            box-shadow: 10px 5px 3px rgb(0, 0, 0);
-                }
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    #whole{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .box{
+        background-color: rgb(175, 174, 174);
+        height: 50vh;
+        width: 25vh;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
+        border-radius: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .bg{
+        width: 100%;
+    }
+    .pp{
+        width: 50%;
+        border-radius: 200px;
+        position: relative;
+        margin-top: -50px;
+    }
+    .nm{
+        font-size: 14px;
+    }
+    .st{
+        text-align: center
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .aa{
+        text-decoration: none;
+        background-color: rgb(74, 74, 226);
+        padding: 10px;
+        font-size: 10px;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {  
+    #whole{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .box{
+        background-color: rgb(255, 255, 255);
+        height: 33vh;
+        width: 15vh;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .bg{
+        width: 100%;
+    }
+    .pp{
+        width: 50%;
+        border-radius: 200px;
+        position: relative;
+        margin-top: -50px;
+    }
+    .nm{
+        font-size: 14px;
+    }
+    .st{
+        margin: 0 auto;
+        margin-bottom: 13px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .aa{
+        text-decoration: none;
+        background-color: rgb(74, 74, 226);
+        padding: 8px;
+        font-size: 10px;
+        color: white;
+        border-radius: 10px;
+    }
+    .ag{
+        font-size: 14px;
+    }
+      
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+    #whole{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .box{
+        background-color: rgb(252, 252, 252);
+        height: 60vh;
+        width: 35vh;
+        padding: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .bg{
+        position: relative;
+    }
+    .pp{
+        width: 100px;
+        border-radius: 200px;
+        position: relative;
+        margin-top: -50px;
+    }
+    #whole{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .nm{
+        font-size: 20px;
+    }
+    .st{
+        background-color: wheat;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .aa{
+        text-decoration: none;
+        background-color: rgb(74, 74, 226);
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+    }
+    .ag{
+        font-size: 13;
+    }
+    
+} 
+
     </style>
 </head>
 <body>
- <section class="anik">
-    <div class="main">
-        <section class="aa">
-             <img class="bg1" src="img/bg.jpg">
-             <img class="pp" src="img/1.jpg"><hr>
-             <p class="ss">Salman Anik</p>
-             <P class="st">Student</P>
-             <a class="hh" href="Salman_Anik.html">See Profile</a>
-        </section>
-        <section class="aa">
-            <img class="bg1" src="img/bg.jpg">
-            <img class="pp" src="img/2.jpg"><hr>
-            <p class="ss">Abir Ahmed</p>
-            <P class="st">Student</P>
-            <a class="hh" href="Abir_Ahmed.html">See Profile</a>
-       </section>
-       <section class="aa">
-        <img class="bg1" src="img/bg.jpg">
-        <img class="pp" src="img/3.jpg"><hr>
-        <p class="ss">Sameul Hasan</p>
-        <P class="st">Student</P>
-        <a class="hh" href="Sameul_Hasan.html">See Profile</a>
-      </section>
-      
-      <section class="aa">
-        <img class="bg1" src="img/bg.jpg">
-        <img class="pp" src="img/4.jpg"><hr>
-        <p class="ss">Galibul Alom</p>
-        <P class="st">Student</P>
-        <a class="hh" href="Galibul_Alom.html">See Profile</a>
-      </section>
-      <section class="aa">
-        <img class="bg1" src="img/bg.jpg">
-        <img class="pp" src="img/5.jpg"><hr>
-        <p class="ss">Sajol Howlader</p>
-        <P class="st">Student</P>
-        <a class="hh" href="Sajol_Hawlader.html">See Profile</a>
-      </section>
-      <section class="aa">
-        <img class="bg1" src="img/bg.jpg">
-        <img class="pp" src="img/6.jpg"><hr>
-        <p class="ss">Musfiq Sajid</p>
-        <P class="st">Student</P>
-        <a class="hh" href="Musfiq_sajid.html">See Profile</a>
-      </section>
+    <section id="whole">
+    <div class="box">
+        <img class="bg" src="img/bg.jpg">
+        <img src="img/1.jpg" class="pp"><hr>
+        <p class="nm">Salman Anik</p>
+        <p class="ag">Age : 18</p>
+        <p class="st">Student</p>
+        <a class="aa" href="">View Profile</a> 
+    </div>
+    <div class="box">
+        <img class="bg" src="img/bg.jpg">
+        <img src="img/2.jpg" class="pp"><hr>
+        <p class="nm">Abir Ahmed</p>
+        <p class="ag">Age : 18</p>
+        <p class="st">Student</p>
+        <a class="aa" href="">View Profile</a> 
+    </div>
+    <div class="box">
+        <img class="bg" src="img/bg.jpg">
+        <img src="img/3.jpg" class="pp"><hr>
+        <p class="nm">Sameul Hasan</p>
+        <p class="ag">Age : 18</p>
+        <p class="st">Student</p>
+        <a class="aa" href="">View Profile</a> 
+    </div>
+    <div class="box">
+        <img class="bg" src="img/bg.jpg">
+        <img src="img/4.jpg" class="pp"><hr>
+        <p class="nm">Galibul Alom</p>
+        <p class="ag">Age : 18</p>
+        <p class="st">Student</p>
+        <a class="aa" href="">View Profile</a> 
+    </div>
+    <div class="box">
+        <img class="bg" src="img/bg.jpg">
+        <img src="img/5.jpg" class="pp"><hr>
+        <p class="nm">Sajol Hawlader</p>
+        <p class="ag">Age : 18</p>
+        <p class="st">Student</p>
+        <a class="aa" href="">View Profile</a> 
     </div>
 </section>
 </body>
