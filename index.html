@@ -10,12 +10,23 @@
             background-color: whitesmoke;
             margin: 0;
         }
+        .whole{
+            box-sizing: border-box;
+        }
         .box{
             box-shadow: 4px 3px 2px black;
+
+            animation: upf;
+            animation-duration: 3s;
         }
         .box:hover{
             padding: 15px;
-            transition: 1s;
+            transition: 2s;
+        }
+        @keyframes upf{
+            from{
+                margin-top: 300px;
+            }
         }
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
