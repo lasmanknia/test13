@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Card</title>
     <style>
+         .menu{
+        background-color: aqua;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+    .menu a{
+        padding: 15px;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .menu a:hover{
+        background-color: azure;
+    }
         body{
-            background-color: whitesmoke;
+            background-color: rgb(250, 250, 250);
             margin: 0;
         }
         .whole{
@@ -20,9 +34,9 @@
             animation: upf;
             animation-duration: 3s;
         }
-        .box:hover{
-            padding: 15px;
-            transition: 2s;
+        .aa:hover{
+            padding: 8%;
+            transition: 1s;
         }
         @keyframes upf{
             from{
@@ -42,10 +56,27 @@
             width: 95%;
             height: 30%;
         }
+        .pp:hover{
+            border-radius: 0;
+            width: 50%;
+        }
 
 
 /* small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {  
+@media only screen and (max-width: 600px) { 
+    .menu{
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    }
+    .menu a{
+        padding: 15px;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .menu a:hover{
+        background-color: azure;
+    } 
     #whole{
         display: flex;
         flex-wrap: wrap;
@@ -154,111 +185,116 @@
     </style>
 </head>
 <body>
+    <div class="menu">
+        <a style="background-color: azure" href="card.html">Profile</a> 
+        <a href="index.html">Home</a>
+        <a href="#">About us</a>
+    </div>   
     <p class="hh1">BOYS</p>
     <section id="whole">
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/1.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/1.jpg" class="pp"><hr>
         <p class="nm">Salman Anik</p>
         <p class="ag">Age : 18+</p>
         <p class="st">Student</p>
-        <a class="aa" href="salman_anik.html">View Profile</a> 
+        <a class="aa" href="main/salman_anik.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/2.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/2.jpg" class="pp"><hr>
         <p class="nm">Abir Ahmed</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="abir_ahmed.html">View Profile</a> 
+        <a class="aa" href="main/abir_ahmed.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/3.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/3.jpg" class="pp"><hr>
         <p class="nm">Sameul Hasan</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="sameul_hasan.html">View Profile</a> 
+        <a class="aa" href="main/sameul_hasan.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/4.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/4.jpg" class="pp"><hr>
         <p class="nm">Galibul Alom</p>
         <p class="ag">Age : 18+</p>
         <p class="st">Student</p>
-        <a class="aa" href="galibul_alom_omi.html">View Profile</a> 
+        <a class="aa" href="main/galibul_alom_omi.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/5.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/5.jpg" class="pp"><hr>
         <p class="nm">Sajol Hawlader</p>
         <p class="ag">Age : 17</p>
         <p class="st">Student</p>
-        <a class="aa" href="sajol_hawlader.html">View Profile</a> 
+        <a class="aa" href="main/sajol_hawlader.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/6.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/6.jpg" class="pp"><hr>
         <p class="nm">Musfiq Sajid</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="musfiq_sajid.html">View Profile</a> 
+        <a class="aa" href="main/musfiq_sajid.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/7.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/7.jpg" class="pp"><hr>
         <p class="nm">Dipraj Mitra Chondon</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="dipraj_mitra_chondon.html">View Profile</a> 
+        <a class="aa" href="main/dipraj_mitra_chondon.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/8.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/8.jpg" class="pp"><hr>
         <p class="nm">Niaz Mahamud</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="niaz_mahmud.html">View Profile</a> 
+        <a class="aa" href="main/niaz_mahmud.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/9.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/9.jpg" class="pp"><hr>
         <p class="nm">Zidan Islam</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="zidan_islam.html">View Profile</a> 
+        <a class="aa" href="main/zidan_islam.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/10.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/10.jpg" class="pp"><hr>
         <p class="nm">Abir Rahman Mugdho</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="abir_rahman_mugdho.html">View Profile</a> 
+        <a class="aa" href="main/abir_rahman_mugdho.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/11.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/11.jpg" class="pp"><hr>
         <p class="nm">Roni Halder</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="roni_halder.html">View Profile</a> 
+        <a class="aa" href="main/roni_halder.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/12.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/12.jpg" class="pp"><hr>
         <p class="nm">Rudra Dip Halder</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="rudra_dip_halder.html">View Profile</a> 
+        <a class="aa" href="main/rudra_dip_halder.html">View Profile</a> 
     </div>
     <div class="box">
-        <img class="bg" src="img/bg.jpg">
-        <img src="img/13.jpg" class="pp"><hr>
+        <img class="bg" src="main/img/bg.jpg">
+        <img src="main/img/13.jpg" class="pp"><hr>
         <p class="nm">Uday Baral</p>
         <p class="ag">Age : 18</p>
         <p class="st">Student</p>
-        <a class="aa" href="udoy_boral.html">View Profile</a> 
+        <a class="aa" href="main/pudoy_boral.html">View Profile</a> 
     </div>
 </section>
 </body>

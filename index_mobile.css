@@ -1,0 +1,69 @@
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .menu{
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    }
+    .menu a{
+        padding: 15px;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .menu a:hover{
+        background-color: azure;
+    }
+    .anim{
+        height: 50vh;
+    }
+    .bg1{
+        width: 80%;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 6vh;
+    }
+    .bg2{
+        width: 20%;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 13%;
+
+        animation: salman;
+        animation-duration: 4s;
+
+    }
+    .bg3{
+        position: absolute;
+        width: 25%;
+        margin-left: 62%;
+        margin-top: 30px;
+
+        animation: aa;
+        animation-duration: 4s;
+    }
+    .bg4{
+        position: absolute;
+        width: 30%;
+        margin-top: 30%;
+        margin-left: 14%;
+
+        animation: bb;
+        animation-duration: 4s;
+    }
+    @keyframes salman {
+        from{
+            width: 10%;
+        }
+    }
+    @keyframes aa {
+        from{
+            margin-top: 10px;
+        }                
+    }
+    @keyframes bb {
+        from{
+            margin-left: 20px;
+        }
+    }
+        
+}
