@@ -1,5 +1,8 @@
 /* small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
+    body{
+        background-color: paleturquoise;
+    }
     .menu{
         background-color: aqua;
         display: flex;
@@ -9,12 +12,69 @@
         padding: 15px;
         text-decoration: none;
         margin-left: 20px;
+        color: black;
+    }
+    .arrow{
+        font-size: 0px
     }
     .menu a:hover{
         background-color: azure;
     }
     .anim{
         height: 50vh;
+    }
+    .head{
+        text-align: center;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .ff{
+        margin-top: 40vh;
+    }
+    .box1{
+        width: 23%;
+        height:150px;
+        background-color: rgb(255, 255, 255);
+        margin: 30px;
+        float: left;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
+
+        animation: ltr;
+        animation-duration: 3s;
+    }
+    .box2{
+        width: 23%;
+        height: 150px;
+        background-color: rgb(255, 255, 255);
+        margin: 30px;
+        float: right;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
+
+        animation: rtl;
+        animation-duration: 3s;
+    }
+    .box1:hover{
+        background-color: wheat;
+    }
+    .box2:hover{
+        background-color: wheat;
+    }
+    @keyframes ltr {
+        from{
+            margin-left: 0;
+        }
+    }
+    @keyframes rtl {
+        from{
+            margin-right: 0;
+        }
     }
     .bg1{
         width: 80%;

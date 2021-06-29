@@ -1,17 +1,74 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 600px) {
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        background-color: paleturquoise;
+    }
     .menu{
         background-color: aqua;
         display: flex;
         justify-content: flex-end;
+        box-sizing: border-box;
     }
     .menu a{
         padding: 15px;
         text-decoration: none;
         margin-left: 20px;
+        color: rgb(0, 0, 0);``
     }
     .menu a:hover{
         background-color: azure;
+    }
+    .ff{
+        margin-top: 100vh;
+    }
+    .head{
+        text-align: center;
+        font-size: 30px;
+    }
+    .arrow{
+        font-size: 60px;
+        position: absolute;
+        margin-top: 78vh;
+        margin-left: 46%;
+        background-color: white;
+        padding: 10px 30px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    .arrow:hover{
+        background-color: black;
+        color: white;
+    }
+    .box1:hover{
+        background-color: antiquewhite;
+    }
+    .box2:hover{
+        background-color: antiquewhite;
+    }
+    .box1{
+        width: 30%;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin: 30px;
+        float: left;
+        padding: 34px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
+    }
+    .box2{
+        width: 30%;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin: 30px;
+        float: right;
+        padding: 34px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px ;
+        text-align: justify;
     }
     .bg1{
         width: 80%;
@@ -61,5 +118,4 @@
         from{
             margin-left: 20px;
         }
-
 }
