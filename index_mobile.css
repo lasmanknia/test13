@@ -1,10 +1,6 @@
 /* small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
-    body{
-        background-color: paleturquoise;
-    }
     .menu{
-        background-color: aqua;
         display: flex;
         justify-content: center;
     }
@@ -35,13 +31,14 @@
     .box1{
         width: 23%;
         height:150px;
-        background-color: rgb(255, 255, 255);
-        margin: 30px;
+        background-color: rgba(255, 255, 255, 0.562);
         float: left;
-        padding: 30px;
+        padding: 25px;
         border-radius: 10px;
         box-shadow: 5px 5px 5px ;
         text-align: justify;
+        margin-left: 20px;
+        margin-bottom: 20px;
 
         animation: ltr;
         animation-duration: 3s;
@@ -49,13 +46,15 @@
     .box2{
         width: 23%;
         height: 150px;
-        background-color: rgb(255, 255, 255);
-        margin: 30px;
+        background-color: rgba(255, 255, 255, 0.562);
         float: right;
-        padding: 30px;
+        padding: 25px;
         border-radius: 10px;
         box-shadow: 5px 5px 5px ;
         text-align: justify;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 5px;
 
         animation: rtl;
         animation-duration: 3s;
@@ -81,6 +80,7 @@
         position: absolute;
         margin-top: 40px;
         margin-left: 6vh;
+
     }
     .bg2{
         width: 20%;
@@ -90,7 +90,10 @@
 
         animation: salman;
         animation-duration: 4s;
+    }
 
+    .bg2:hover{
+        margin-top: 25px;
     }
     .bg3{
         position: absolute;
@@ -101,6 +104,9 @@
         animation: aa;
         animation-duration: 4s;
     }
+    .bg3:hover{
+        margin-top: 25px;
+    }
     .bg4{
         position: absolute;
         width: 30%;
@@ -109,6 +115,9 @@
 
         animation: bb;
         animation-duration: 4s;
+    }
+    .bg4:hover{
+        margin-left: 13%;
     }
     @keyframes salman {
         from{

@@ -1,0 +1,228 @@
+.menu{
+    background-color: rgba(255, 255, 255, 0.651);
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.menu a{
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu a:hover{
+    background-color: azure;
+}
+    body{
+        margin: 0;
+        background-image: url(img/bg3.jpg);
+        background-size: cover;
+    }
+    .whole{
+        box-sizing: border-box;
+    }
+    .box{
+        box-shadow: 4px 3px 2px black;
+        box-sizing: border-box;
+        
+        animation: upf;
+        animation-duration: 3s;
+    }
+    .aa:hover{
+        padding: 8%;
+        transition: 1s;
+    }
+    .hh1{
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 5px 10px black;
+        width: 80%;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .bg{
+        width: 95%;
+        height: 30%;
+        opacity: 0.7;
+    }
+    .bg:hover{
+        opacity: 1;
+    }
+    .pp:hover{
+        border-radius: 0;
+        width: 50%;
+    }
+
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .box{
+        height: 30%;
+    }
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu a{
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu a:hover{
+    background-color: azure;
+} 
+#whole{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+.box{
+    background-color: rgba(237, 238, 238, 0.767);
+    width: 20vh;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+    height: 230px;
+}
+.pp{
+    width: 50%;
+    border-radius: 200px;
+    position: relative;
+    margin-top: -50px;
+}
+.nm{
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: -2px;
+}
+.aa{
+    text-decoration: none;
+    background-color: rgba(29, 29, 219, 0.829);
+    padding: 8px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.fa {
+    padding-top: 2%;
+    width: 19px;
+    height: 17px;
+    text-decoration: none;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    border-radius: 10%;
+    display: inline-table;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-instagram {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  .fa-snapchat-ghost {
+    background: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgb(192, 192, 192);
+    }
+#whole{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.box{
+    background-color: rgba(250, 253, 255, 0.411);
+    width: 35vh;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    height: 30%;
+}
+
+.pp{
+    width: 100px;
+    border-radius: 200px;
+    position: relative;
+    margin-top: -50px;
+    border: 2px solid white;
+}
+.nm{
+    font-size: 20px;
+}
+.fa {
+    padding: 8px;
+    width: 25px;
+    height: 17px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    border-radius: 10%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-instagram {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  .fa-snapchat-ghost {
+    background: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+.aa{
+    text-decoration: none;
+    background-color: rgba(29, 29, 219, 0.829);
+    padding: 9px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+} 
